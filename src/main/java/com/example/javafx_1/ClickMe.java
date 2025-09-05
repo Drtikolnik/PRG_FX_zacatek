@@ -35,6 +35,7 @@ public class ClickMe extends Application {
         tlacitko = new Button();
         tlacitko.setText("Klikni na mě uwu");
         pane.setBottom(tlacitko);
+
         tlacitko = new Button();
         tlacitko.setText("Klikni na mě uwu");
         pane.setRight(tlacitko);
