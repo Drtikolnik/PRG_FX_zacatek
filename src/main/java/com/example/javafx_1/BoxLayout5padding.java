@@ -6,9 +6,9 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
+import javafx.geometry.Insets;
 
-
-public class BoxLayout4 extends Application {
+public class BoxLayout5padding extends Application {
     Button tlacitko1;
     Button tlacitko2;
     Button tlacitko3;
@@ -35,14 +35,14 @@ public class BoxLayout4 extends Application {
 
 
         BorderPane pane = new BorderPane();
-        HBox hbox1 = new HBox(tlacitko1);
-        HBox hbox2 = new HBox(tlacitko2);
-        HBox hbox3 = new HBox(tlacitko3, tlacitko4);
-        HBox hbox4 = new HBox(tlacitko5, tlacitko8 , tlacitko6);
-        HBox hbox5 = new HBox(tlacitko7);
+        VBox vbox1 = new VBox(tlacitko1, tlacitko2);
+
+        HBox hbox2 = new HBox(tlacitko3, tlacitko4);
+        hbox2.setPadding(new Insets(-12, 10, 1, 100));
+        hbox2.setSpacing(20);
 
 
-        VBox root = new VBox(hbox1, hbox2, hbox3, hbox4, hbox5);
+        VBox root = new VBox(vbox1, hbox2);
 
         Scene scene = new Scene(root, 400, 200);
         primaryStage.setScene(scene);

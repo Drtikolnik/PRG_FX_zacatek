@@ -20,11 +20,11 @@ public class BoxLayout1 extends Application {
 
 
 
-        tlacitko1 = new Button("Klikni na mě uwu 1");
-        tlacitko2 = new Button("Klikni na mě uwu 2");
-        tlacitko3 = new Button("Klikni na mě uwu 3");
-        tlacitko4 = new Button("Klikni na mě uwu 4");
-        tlacitko5 = new Button("Klikni na mě uwu 5");
+        tlacitko1 = new Button("Click me uwu 1");
+        tlacitko2 = new Button("Click me uwu 2");
+        tlacitko3 = new Button("Click me uwu 3");
+        tlacitko4 = new Button("Click me uwu 4");
+        tlacitko5 = new Button("Click me uwu 5");
 
         BorderPane pane = new BorderPane();
         VBox vbox = new VBox(tlacitko1, tlacitko2);
