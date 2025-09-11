@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="755538e5-876a-4977-abf6-f7f1282db294" name="Changes" comment="x3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/BorderLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/ClickMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/ClickMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/HBoxx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/VBoxx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Drtikolnik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Drtikolnik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Drtikolnik/PRG_FX_zacatek.git",
-    "accountId": "3ec435d7-973e-4b61-b40a-47dc28283ffd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Drtikolnik/PRG_FX_zacatek.git&quot;,
+    &quot;accountId&quot;: &quot;3ec435d7-973e-4b61-b40a-47dc28283ffd&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -42,9 +44,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="32GhOASHVJNuQ9JBShG05MJOwSI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,7 +56,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ClickMe.executor": "Run",
+    "Application.HBox.executor": "Run",
+    "Application.HBoxx.executor": "Run",
     "Application.HelloApplication.executor": "Run",
+    "Application.VBoxx.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -84,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757052783447</updated>
       <workItem from="1757052784516" duration="4117000" />
+      <workItem from="1757573197691" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="x3">
       <option name="closed" value="true" />
