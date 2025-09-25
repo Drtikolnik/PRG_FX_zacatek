@@ -55,31 +55,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BoxLayout.executor": "Run",
-    "Application.BoxLayout1.executor": "Run",
-    "Application.BoxLayout2.executor": "Run",
-    "Application.BoxLayout3.executor": "Run",
-    "Application.BoxLayout4.executor": "Run",
-    "Application.BoxLayout5padding.executor": "Run",
-    "Application.ClickMe.executor": "Run",
-    "Application.HBox.executor": "Run",
-    "Application.HBoxx.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "Application.VBoxx.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BoxLayout.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxLayout1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxLayout2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxLayout3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxLayout4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxLayout5padding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClickMe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HBox.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HBoxx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VBoxx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
