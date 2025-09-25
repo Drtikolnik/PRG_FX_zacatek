@@ -2,7 +2,10 @@ package com.example.javafx_1;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class UkolHard extends Application {
@@ -60,7 +63,7 @@ public class UkolHard extends Application {
         radioButton2.setToggleGroup(radio1);
 
         //---
-        txa1 = new TextArea();
+        txa1 = new TextArea("Prostor pro poznámky");
 
         btn1 = new Button("Submit");
 
@@ -81,16 +84,18 @@ public class UkolHard extends Application {
         root.add(psw1, 4, 2);
         //--
 
-        root.add(lbl7, 0, 2);
-        root.add(txf3, 1, 2);
-        root.add(lbl6, 3, 2);
-        root.add(psw1, 4, 2);
-        root.add(btn1, 5, 4);
+        HBox hbox1 = new HBox();
+        hbox1.getChildren().addAll(lbl7, checkBox1, checkBox2, checkBox3, checkBox4);
+        HBox hbox2 = new HBox();
+        hbox2.getChildren().addAll(lbl8, radioButton1, radioButton2);
+
+        VBox vbox = new VBox();
+        vbox.getChildren().addAll(root, hbox1, hbox2, txa1);
 
         //--
 
 
-        Scene scene = new Scene(root, 300, 200);
+        Scene scene = new Scene(vbox, 300, 200);
         primaryStage.setScene(scene);
         primaryStage.show();
 

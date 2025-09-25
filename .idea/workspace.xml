@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="755538e5-876a-4977-abf6-f7f1282db294" name="Changes" comment="ukolhard">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/CheckRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/Labell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/Labell2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/UkolHard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/UkolHard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +29,12 @@
     &quot;assignee&quot;: &quot;Drtikolnik&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Drtikolnik/PRG_FX_zacatek.git",
-    "accountId": "320ebf58-aebd-46b3-be6d-0422a221c2ca"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Drtikolnik/PRG_FX_zacatek.git&quot;,
+    &quot;accountId&quot;: &quot;320ebf58-aebd-46b3-be6d-0422a221c2ca&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -64,6 +63,7 @@
     "Application.HBox.executor": "Run",
     "Application.HBoxx.executor": "Run",
     "Application.HelloApplication.executor": "Run",
+    "Application.UkolHard.executor": "Run",
     "Application.VBoxx.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -119,6 +119,7 @@
       <workItem from="1757573197691" duration="4301000" />
       <workItem from="1757577813129" duration="1373000" />
       <workItem from="1758789395039" duration="150000" />
+      <workItem from="1758789556953" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="x3">
       <option name="closed" value="true" />
@@ -152,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758789478968</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ukolhard">
+      <option name="closed" value="true" />
+      <created>1758789569665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758789569665</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
