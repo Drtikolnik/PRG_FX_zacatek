@@ -35,19 +35,17 @@ public class GUI2 extends Application {
 
 
                 for (int i = 0; i < text.length(); i++) {
-                    if (text.charAt(i) == ' ' || text.charAt(i) == '.' || text.charAt(i) == '-' || text.charAt(i) == '!' || text.charAt(i) == '?') {
-                        char c = text.charAt(i);
+                    char c = text.charAt(i);
+
+                    if (text.charAt(i) == ' ' || text.charAt(i) == '.' || text.charAt(i) == '-' || text.charAt(i) == '!' || text.charAt(i) == '?' || text.charAt(i) == '_' || text.charAt(i) == '+') {
                         sifra += c;
                     }else if (text.charAt(i) == 'z') {
-                        char c = text.charAt(i);
                         c = 97;
                         sifra += c;
                     }else if (text.charAt(i) == 'Z') {
-                        char c = text.charAt(i);
                         c = 65;
                         sifra += c;
                     }else{
-                        char c = text.charAt(i);
                         c ++;
                         sifra += c;
                     }
