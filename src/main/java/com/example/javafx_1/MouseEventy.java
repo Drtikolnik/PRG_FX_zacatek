@@ -14,14 +14,13 @@ import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 
-public class HelloApplication extends Application {
+public class MouseEventy extends Application {
     Button btn = new Button();
     @Override
 
     public void start(Stage stage) throws IOException {
 
         GridPane root = new GridPane();
-
 
         btn.setOnMouseClicked(new EventHandler<MouseEvent>() {
 
@@ -36,11 +35,10 @@ public class HelloApplication extends Application {
                 }
             }
 
-         });
+        });
 
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1920, 1000);
+        Scene scene = new Scene(root, 1920, 1000);
         root.add(btn, 0, 0);
         stage.setTitle("Zasunout!");
         stage.setScene(scene);
@@ -48,15 +46,6 @@ public class HelloApplication extends Application {
 
 
     }
-
-
-
-
-
-
-
-
-
 
 
 

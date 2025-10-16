@@ -26,8 +26,8 @@ public class Eventy2 extends Application {
     public void start(Stage primaryStage) {
         GridPane root = new GridPane();
 
-        txf1 = new TextField("Text1:");
-        txf2 = new TextField("Text2:");
+        txf1 = new TextField("Text1");
+        txf2 = new TextField("Text2");
 
         btn1 = new Button("Prohodit");
 
@@ -54,7 +54,7 @@ public class Eventy2 extends Application {
         HBox hbox1 = new HBox();
         hbox1.getChildren().addAll(txf1, txf2, btn1);
 
-        Scene scene = new Scene(hbox1, 300, 200);
+        Scene scene = new Scene(hbox1, 400, 200);
         primaryStage.setScene(scene);
         primaryStage.show();
 
