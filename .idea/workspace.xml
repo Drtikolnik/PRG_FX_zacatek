@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="755538e5-876a-4977-abf6-f7f1282db294" name="Changes" comment="ukolhard">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/GUI1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/MouseEventy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/GUI2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/Eventy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/Eventy2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +63,7 @@
     "Application.Eventy.executor": "Run",
     "Application.Eventy2.executor": "Run",
     "Application.GUI1.executor": "Run",
+    "Application.GUI2.executor": "Run",
     "Application.HBox.executor": "Run",
     "Application.HBoxx.executor": "Run",
     "Application.HelloApplication.executor": "Run",
@@ -143,7 +141,7 @@
       <workItem from="1759996970588" duration="3585000" />
       <workItem from="1760073331831" duration="1127000" />
       <workItem from="1760597394704" duration="307000" />
-      <workItem from="1760597714402" duration="5448000" />
+      <workItem from="1760597714402" duration="6424000" />
     </task>
     <task id="LOCAL-00001" summary="x3">
       <option name="closed" value="true" />
@@ -201,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759999313111</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ukolhard">
+      <option name="closed" value="true" />
+      <created>1760603247368</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760603247368</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
