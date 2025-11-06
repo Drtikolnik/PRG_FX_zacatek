@@ -95,7 +95,7 @@ public class UkolHard extends Application {
         //--
 
 
-        Scene scene = new Scene(vbox, 300, 200);
+        Scene scene = new Scene(vbox, 500, 200);
         primaryStage.setScene(scene);
         primaryStage.show();
 

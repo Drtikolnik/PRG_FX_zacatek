@@ -1,25 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" prefHeight="387.0" prefWidth="396.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_1.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
-
-    <Label fx:id="welcomeText" alignment="CENTER" contentDisplay="CENTER" prefHeight="87.0" prefWidth="389.0" text="BRIARTHORN" textFill="#ff1a1a" underline="true">
-      <font>
-         <Font name="Arial Black" size="24.0" />
-      </font></Label>
-    <Button alignment="CENTER" graphicTextGap="2.0" onAction="#onHelloButtonClick" prefHeight="77.0" prefWidth="173.0" style="-fx-background-color: aqua;" text="KLIKNII" textAlignment="CENTER" textFill="#ca16d7" textOverrun="CENTER_ELLIPSIS">
-      <cursor>
-         <Cursor fx:constant="HAND" />
-      </cursor>
-      <font>
-         <Font name="Berlin Sans FB" size="18.0" />
-      </font></Button>
-</VBox>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_1.HelloController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <VBox prefHeight="21.0" prefWidth="300.0" GridPane.columnSpan="2">
+            <children>
+                <Label prefHeight="17.0" prefWidth="225.0" text="Formulář pro registraci uživatele" />
+            </children>
+        </VBox>
+        <Label text="Jméno:" GridPane.rowIndex="1" />
+        <TextField fx:id="textPole" onAction="#onButtonClick" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Label prefHeight="17.0" prefWidth="64.0" text="Přijmení:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <TextField GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Label prefHeight="17.0" prefWidth="100.0" text="Datum narození" GridPane.rowIndex="2" />
+        <Label prefHeight="17.0" prefWidth="66.0" text="Login:" GridPane.rowIndex="3" />
+        <Label text="Barva" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Label text="Heslo" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <DatePicker GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <ColorPicker GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <PasswordField GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <HBox prefHeight="94.0" prefWidth="70.0" GridPane.columnSpan="4" GridPane.rowIndex="4">
+            <children>
+                <Label text="Jazyky:" />
+                <CheckBox mnemonicParsing="false" text="Angličtina" />
+                <CheckBox mnemonicParsing="false" text="Čeština" />
+                <CheckBox mnemonicParsing="false" text="Němčina" />
+                <CheckBox mnemonicParsing="false" text="Španělština" />
+            </children>
+        </HBox>
+        <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="5">
+            <children>
+                <Label text="Souhlas s podmínkami" />
+                <RadioButton mnemonicParsing="false" text="Ano">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="yes" />
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton mnemonicParsing="false" text="Ne" toggleGroup="$yes" />
+            </children>
+        </HBox>
+        <TextArea fx:id="textArea" prefHeight="70.0" prefWidth="600.0" text="neco pro poznamky" GridPane.columnSpan="4" GridPane.rowIndex="7" GridPane.rowSpan="3" />
+        <Label text="Dekuju za neco" GridPane.rowIndex="10" />
+        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onButtonClick" text="Registrovat" textAlignment="CENTER" GridPane.rowIndex="6" />
+    </children>
+</GridPane>

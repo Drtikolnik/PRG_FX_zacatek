@@ -2,19 +2,20 @@ package com.example.javafx_1;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 
 public class HelloController {
     @FXML
-    private Label welcomeText;
-
-    int kolikrat = 0;
+    private TextArea textArea;
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("LUKÁŠ DRTINA");
-            kolikrat++;
-            System.out.println("Tlačítko bylo stisknuto " +kolikrat+ "x");
-            if (kolikrat == 5) {
-                welcomeText.setText("TLAČÍTKO JE VYČERPÁNO");
-            }
+    private TextField textPole;
+
+    @FXML
+    protected void onButtonClick() {
+        textArea.setText(textPole.getText());
     }
-}
+
+
+
+    }
