@@ -14,7 +14,7 @@ public class Uzivatel {
     private String heslo;
     private String barva;
 
-    public Uzivatel(String jmeno, String prijmeni, String datumNarozeni, String login, String heslo, String barva) {
+    public Uzivatel(String jmeno, String prijmeni, String datumNarozeni, String barva, String login, String heslo) {
         this.jmeno = jmeno;
         this.prijmeni = prijmeni;
         this.datumNarozeni = datumNarozeni;
