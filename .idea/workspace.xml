@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="755538e5-876a-4977-abf6-f7f1282db294" name="Changes" comment="ukolhard">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/Uzivatel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx_1/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafx_1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafx_1/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +28,12 @@
     &quot;assignee&quot;: &quot;Drtikolnik&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Drtikolnik/PRG_FX_zacatek.git&quot;,
-    &quot;accountId&quot;: &quot;3245b1d5-4f76-4ba9-abdf-7a633a8739df&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Drtikolnik/PRG_FX_zacatek.git",
+    "accountId": "a370cbe9-164a-4740-9519-f78ec1fd47d5"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -139,7 +136,7 @@
       <workItem from="1760597394704" duration="307000" />
       <workItem from="1760597714402" duration="6556000" />
       <workItem from="1762421032541" duration="1361000" />
-      <workItem from="1763021340264" duration="5453000" />
+      <workItem from="1763021340264" duration="6427000" />
     </task>
     <task id="LOCAL-00001" summary="x3">
       <option name="closed" value="true" />
@@ -213,7 +210,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760604273786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ukolhard">
+      <option name="closed" value="true" />
+      <created>1763026826262</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763026826262</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ukolhard">
+      <option name="closed" value="true" />
+      <created>1763026896647</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1763026896647</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ukolhard">
+      <option name="closed" value="true" />
+      <created>1763027116446</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763027116446</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
