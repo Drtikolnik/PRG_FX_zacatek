@@ -80,7 +80,7 @@ public class HelloController {
     @FXML
     protected void onButtonClickVypisUzivatele() {
         for (Uzivatel u : uzivatele) {
-            System.out.println(u);
+            System.out.println(u.toString());
         }
 
     }
