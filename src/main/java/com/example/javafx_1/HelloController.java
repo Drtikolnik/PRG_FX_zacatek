@@ -86,6 +86,15 @@ public class HelloController {
     }
 
 
+    @FXML
+    protected void onButtonClickVypisZajimavosti() {
+        for (Uzivatel u : uzivatele) {
+            System.out.println(u.toString());
+        }
+
+    }
+
+
 
 
 
